@@ -23,7 +23,7 @@ library(ggplot2)
 
 ## plot the emissions by type
 
-png(file = "plot3.png")
+png(file = "plot3.png", width = 800, height = 480)
 qplot(x = year, y = Emissions, data = baltimoreTypeSum, geom = c("point", "smooth"),
       formula = y ~ x, color = type,
       main = "Baltimore City Emissions from 1999 - 2008 by type",
