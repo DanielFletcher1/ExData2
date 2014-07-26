@@ -17,7 +17,7 @@ emissionsSum <- aggregate(Emissions ~ year, NEI, sum)
 
 png(file = "plot1.png")
 plot(emissionsSum, type = "b", ylab = "Sum of Emissions in tons")
-title("Over 52% reduction in Emissions from 1999 - 2008")
+title("Over 52% reduction in U.S. Emissions from 1999 - 2008")
 dev.off()
 
 ## for reference, here's the 52+ percent change for years 1999 v. 2008:
