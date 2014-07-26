@@ -40,5 +40,5 @@ png(file = "plot4.png", width = 800, height = 480)
 qplot(x = year, y = Emissions, data = coalSum, geom = c("point", "smooth"),
       formula = y ~ x,
       main = "Coal combustion-related Emissions in the U.S. from 1999 - 2008",
-      ylab = "Sum of Emissions in tons")
+      ylab = "Sum of Emissions in tons") + theme(plot.title = element_text(face = "bold"))
 dev.off()
