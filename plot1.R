@@ -20,7 +20,7 @@ plot(emissionsSum, type = "b", ylab = "Sum of Emissions in tons")
 title("Over 52% reduction in Emissions from 1999 - 2008")
 dev.off()
 
-## for reference, here's the 52+ percent change for 1999 v. 2008:
+## for reference, here's the 52+ percent change for years 1999 v. 2008:
 
 firstYearEmissions <- emissionsSum[emissionsSum$year == 1999, "Emissions"]
 lastYearEmissions <- emissionsSum[emissionsSum$year == 2008, "Emissions"]
