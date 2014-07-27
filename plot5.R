@@ -11,7 +11,7 @@ SCC <- readRDS("Source_Classification_Code.rds")
 
 ## use type = "ON-ROAD" to subset the SCC data to observations from motor vehicle sources
 ## (see pg. 215 of http://www.epa.gov/ttn/chief/net/2011nei/2011_nei_tsdv1_draft2_june2014.pdf
-## describing how "ON-ROAD" is made up of motor vehicles - credit Robert McAnany for sahring
+## describing how "ON-ROAD" is made up of motor vehicles - credit Robert McAnany for sharing
 ## the citation and research)
 
 onroadNEI <- NEI[NEI$type == "ON-ROAD",]
