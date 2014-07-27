@@ -33,7 +33,6 @@ install.packages("gridExtra")
 library(gridExtra)
 
 ## plot the Baltimore City and LA County motor vehicle emissions
-## the extra () cause the plots to print immediately
 
 png(file = "plot6.png", width = 500, height = 900)
 p1 <- qplot(x = year, y = Emissions, data = onroadBaltimoreSum, geom = c("point", "smooth"),
